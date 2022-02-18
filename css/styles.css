@@ -19,6 +19,7 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--dark-cyan);
     text-align: center;
+    overflow: hidden;
 }
 img {
     max-width: 100%
@@ -42,7 +43,6 @@ main {
     position: relative;
     display: block;
     left: 50%;
-    top: -10%;
 }
 
 /* CARD */
