@@ -7,24 +7,51 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
     <title>Frontend Mentor | Profile card component</title>
-    
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
-    Victor Crest
-    26
-    London
 
-    80K
-    Followers
+    <main>
+        <div class="fondos">
+            <img src="images/bg-pattern-top.svg" class="fondo-top" alt="Fondo superior">
+            <img src="images/bg-pattern-bottom.svg" class="fondo-bottom" alt="Fondo inferior">
+        </div>
 
-    803K
-    Likes
+        <div class="card">
+            <header class="card-header">
 
-    1.4K
-    Photos
+            </header>
+            <div class="main-content">
+                <img class="victor" src="images/image-victor.jpg" alt="Avatar">
+                <h1 class="name">Victor Crest <span class="age"> 26</span></h1>
+                <p class="city">London</p>
+            </div>
+            <footer class="card-footer">
+                <div class="follow">
+                    <h2>80K</h2>
+                    <p class="sub">Followers</p>
+                </div>
+                <div class="likes">
+                    <h2>803K</h2>
+                    <p class="sub">likes</p>
+                </div>
+                <div class="photos">
+                    <h2>1.4K</h2>
+                    <p class="sub">Photos</p>
+                </div>
+            </footer>
+        </div>
+    </main>
+
     <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
+        Coded by <a href="#">Daniel Santillán</a>.
     </div>
 </body>
 </html>
